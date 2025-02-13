@@ -1,0 +1,4 @@
+name: SilverLottery
+version: '1.0-SNAPSHOT'
+main: me.upoka.silverLottery.SilverLottery
+api-version: '1.18'

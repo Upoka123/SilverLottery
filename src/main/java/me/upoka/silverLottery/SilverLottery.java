@@ -1,0 +1,17 @@
+package me.upoka.silverLottery;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public final class SilverLottery extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        // Plugin startup logic
+
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
+    }
+}
