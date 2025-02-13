@@ -1,0 +1,56 @@
+globalPrefix: "&7[&#64FB08&lS&#5DF407&li&#56ED07&ll&#4FE606&lv&#48DF05&le&#41D805&lr&#3AD104&lL&#33CA03&lo&#2CC303&lt&#25BC02&lt&#1EB501&le&#17AE01&lr&#10A700&ly&7] &8»"
+
+lottery:
+  announcement: "%prefix% &#08FB0F✔ Buy a lottery ticket and win big!"
+
+  error:
+    player_only: "%prefix% &#FF0000✘ Only players can use this command!"
+    invalid_number: "%prefix% &#FF0000✘ Invalid number!"
+    no_permission: "%prefix% &#FF0000✘ You do not have permission to use this command!"
+
+  buy:
+    usage: "%prefix% &#FF0000✘ Usage: /lottery buy <amount>"
+    positive_amount: "%prefix% &#FF0000✘ The amount must be positive!"
+    not_enough_money: "%prefix% &#FF0000✘ You don't have enough money to purchase!"
+    max_reached: "%prefix% &#FF0000✘ You can buy a maximum of %max% lottery tickets!"
+    success: "%prefix% &#08FB0F✔ You have successfully purchased %amount% lottery tickets!"
+
+  forcestart:
+    success: "%prefix% &#08FB0F✔ Lottery draw started!"
+
+  reset:
+    success: "%prefix% &#08FB0F✔ The lottery has been reset!"
+
+  remove:
+    usage: "%prefix% &#FF0000✘ Usage: /lottery remove <player> <amount>"
+    success: "%prefix% &#08FB0F✔ Successfully removed %amount% lottery tickets from %player%."
+
+  add:
+    usage: "%prefix% &#FF0000✘ Usage: /lottery add <player> <amount>"
+    success: "%prefix% &#08FB0F✔ Successfully added %amount% lottery tickets to %player%."
+
+  help: |
+    Lottery commands:
+    &#64FB08/lottery buy &7<&#64FB08amount&7> &8- &fBuy lottery tickets
+    &#64FB08/lottery forcestart &8- &fStart the drawing immediately
+    &#64FB08/lottery reset &8- &fReset the lottery
+    &#64FB08/lottery remove &7<&#64FB08player&7> &7<&#64FB08amount&7> &8- &fRemove lottery tickets
+    &#64FB08/lottery add &7<&#64FB08player&7> <&#64FB08amount&7> &8- &fAdd lottery tickets
+
+  reload:
+    success: "%prefix% &#08FB0F✔ Plugin configuration and messages reloaded."
+
+  status: |
+    Lottery status:
+    &7Current Prize: &f%prize%
+    &7Total Tickets: &f%total%
+    &7Next Drawing: &f%next%
+    &7Last Winner: &f%winner%
+
+  draw:
+    no_tickets: "%prefix% &eThere aren't enough lottery tickets sold to start a draw."
+    winner: "%prefix% &6The lottery winner: %winner% - Prize: %prize%"
+    error: "%prefix% &#FF0000✘ An error occurred during the draw."
+
+  no_winner: "None"
+  unknown_player: "Unknown"

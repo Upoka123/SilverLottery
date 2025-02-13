@@ -1,4 +1,7 @@
 name: SilverLottery
-version: '1.0-SNAPSHOT'
+version: '1.0'
 main: me.upoka.silverLottery.SilverLottery
 api-version: '1.18'
+commands:
+  lottery:
+    description: "Lottery commands"

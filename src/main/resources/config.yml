@@ -1,0 +1,20 @@
+globalPrefix: "&6[Lottery]&r"
+announcementInterval: 6000  # Tick-ek (kb. 5 perc, 20 tick/másodperc)
+
+lottery:
+  ticketPrice: 10.0
+  prize: 1000.0
+  maxTicketsPerPlayer: 100
+  minTicketsToDraw: 10
+  drawingDelaySeconds: 10
+
+database:
+  type: "sqlite"  # Lehet: sqlite, mysql, h2
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "lottery"
+    username: "root"
+    password: ""
+  h2:
+    database: "lottery"
